@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/rkusuma/angular-cli-lerna/compare/navbar@0.1.0...navbar@0.1.1) (2018-11-30)
+
+
+### Bug Fixes
+
+* update template ([2914fd6](https://github.com/rkusuma/angular-cli-lerna/commit/2914fd6))
+
+
+
+
+
 # [0.1.0](https://github.com/rkusuma/angular-cli-lerna/compare/navbar@0.0.2...navbar@0.1.0) (2018-11-30)
 
 
