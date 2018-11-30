@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'ctp-navbar',
   template: `
     <p>
-      navbar works!
+      Hello navbar!
     </p>
   `,
   styles: []
