@@ -8065,10 +8065,10 @@ shebang-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
   integrity sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
 
-sidenav@^0.1.0:
-  version "0.1.0"
-  resolved "http://localhost:4873/sidenav/-/sidenav-0.1.0.tgz#90e65d019087b9c9b36c99ce83c4bd5bffcda46c"
-  integrity sha512-lH5i6c+BI/zRJsHGXqjfswTW5jmYCn+uaUTjMOPd1TDFvvjveOwI3wX5X8z2NPYw0AvNnPczFubGOUxNI5klag==
+sidenav@^0.1.1:
+  version "0.1.1"
+  resolved "http://localhost:4873/sidenav/-/sidenav-0.1.1.tgz#1d0de918c8240c0b4c6ff6e7585ff8e6ba34bdeb"
+  integrity sha512-FLQR4CyfnaKBRRVmeyGDpu+BKvVWYgV3OrChv6ZB7r5L961C3vbJ8shgxHrexXkokk9nP+i2YxbNMvwu5V+q2A==
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
