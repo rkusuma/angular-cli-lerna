@@ -125,6 +125,76 @@
           }
         }
       }
+    },
+    "navbar": {
+      "root": "projects/navbar",
+      "sourceRoot": "projects/navbar/src",
+      "projectType": "library",
+      "prefix": "ctp",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/navbar/tsconfig.lib.json",
+            "project": "projects/navbar/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/navbar/src/test.ts",
+            "tsConfig": "projects/navbar/tsconfig.spec.json",
+            "karmaConfig": "projects/navbar/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/navbar/tsconfig.lib.json",
+              "projects/navbar/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "sidenav": {
+      "root": "projects/sidenav",
+      "sourceRoot": "projects/sidenav/src",
+      "projectType": "library",
+      "prefix": "ctp",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/sidenav/tsconfig.lib.json",
+            "project": "projects/sidenav/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/sidenav/src/test.ts",
+            "tsConfig": "projects/sidenav/tsconfig.spec.json",
+            "karmaConfig": "projects/sidenav/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/sidenav/tsconfig.lib.json",
+              "projects/sidenav/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "angular-cli-lerna"
