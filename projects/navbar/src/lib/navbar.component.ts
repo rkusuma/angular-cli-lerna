@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <p>
       Hello navbar!!!!!!!??
+      Hello navbar
     </p>
   `,
   styles: []
