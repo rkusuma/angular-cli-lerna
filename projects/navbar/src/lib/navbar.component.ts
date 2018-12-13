@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
     <p>
       Hello navbar!!!!!!!??
       Hello navbar
+      Hello navbar again
     </p>
   `,
   styles: []
